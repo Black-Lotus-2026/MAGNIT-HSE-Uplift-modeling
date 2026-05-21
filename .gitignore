@@ -218,3 +218,25 @@ __marimo__/
 .streamlit/secrets.toml
 
 .idea
+
+# Project local data and generated artifacts
+.DS_Store
+.vscode/
+data.csv
+data_train.csv
+кей/*.parquet
+кей/*.xlsx
+кей/~$*.xlsx
+catboost_info/
+models/
+*.cbm
+*.pkl
+*.joblib
+predictions.csv
+outputs/
+
+# Local scratch experiments
+self at.ipynb
+self attention.ipynb
+ВШЭ.ipynb
+test*.py
