@@ -1,0 +1,39 @@
+# System / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and competition files
+data.csv
+data_train.csv
+кей/*.parquet
+кей/*.xlsx
+кей/~$*.xlsx
+
+# Model artifacts and generated outputs
+catboost_info/
+models/
+*.cbm
+*.pkl
+*.joblib
+predictions.csv
+*.log
+
+# Local scratch experiments
+self at.ipynb
+self attention.ipynb
+ВШЭ.ipynb
+test*.py
