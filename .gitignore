@@ -236,6 +236,9 @@ predictions.csv
 predictions_*.csv
 hpo_results*.csv
 auto_tuning_artifacts/
+top20_artifacts/
+uplift_tree_artifacts/
+causal_forest_artifacts/
 outputs/
 
 # Local scratch experiments
